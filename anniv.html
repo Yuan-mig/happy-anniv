@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0e6f7;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .letter-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+            font-size: 18px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            font-size: 36px;
+            color: #ff4081;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeInText 2s ease-in-out forwards 1s;
+        }
+        p {
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 15px;
+            opacity: 0;
+            animation: fadeInText 2s ease-in-out forwards 2s;
+        }
+        .signature {
+            font-style: italic;
+            font-size: 22px;
+            color: #ff4081;
+            margin-top: 30px;
+            opacity: 0;
+            animation: fadeInText 2s ease-in-out forwards 3s;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInText {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="letter-container">
+        <h1>Hello Lay!</h1>
+        <p>
+            Thank you for always being there for me, for standing by my side kahit medyo di ko deserve haha. Your support means everything to me alam mo yan.
+        </p>
+        <p>
+            I know I haven’t been the best boyfriend, and I’m sorry for the times na binibigo kita. I promise I will always be here for you, supporting you no matter what.I will always here by your side.
+        </p>
+        <p>
+          Di ko na idakulan haha basta alam mo na yun. I love you always. Di mo na to e day ha haha kung sakali maisipan mo haha
+        </p>
+        <p>
+            Happy Anniversary ulit by!. I’m so lucky to have you.
+        </p>
+        <p class="signature">
+            With Love, <br>
+            pogi mong bf
+        </p>
+    </div>
+
+</body>
+</html>
